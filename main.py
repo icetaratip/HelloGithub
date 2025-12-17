@@ -2,7 +2,7 @@ import nextcord
 from nextcord.ext import commands
 import requests, datetime
 
-TOKEN = ""
+TOKEN = "" #เพิ่มbot
 CARD_IMAGE_URL = "https://i.pinimg.com/originals/0a/d7/35/0ad735f722522d9a424b2a018ff63319.gif"
 API_URL = "https://netflix.gafiwshop.xyz/disney.php?mode=json&email=qbnjfcaa193%40sell24hr.xyz&ts=1765292730183"
 
@@ -58,3 +58,4 @@ async def on_ready():
     print("BOt User:", bot.user)
 
 bot.run(TOKEN)
+
