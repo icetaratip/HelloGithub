@@ -1,2 +1,2 @@
 # HelloGithub
-Eiei
+pip install -r requirements.txt
